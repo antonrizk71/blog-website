@@ -1,0 +1,62 @@
+:root {
+    --dark-color: #19283f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: "Roboto", sans-serif;
+}
+.navbar a:hover,h2,.clock,span{
+    color: blue;
+}
+
+
+.twitter,.logo,.whatsapp,.copyright{
+    color: #aab8c2;
+}
+.messenger{
+    color: #0084ff;
+    
+}
+.facebook{
+    color:#1877f2;
+}
+.user_image{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.comment_time{
+    margin-top: -1em;
+    display: block;
+}
+
+.status-pending {
+    color: orange;
+}
+.status-approved {
+    color: green;
+}
+.status-rejected {
+    color: red;
+}
+
+@media (min-width: 992px) {
+    .sticky-profile {
+        position: sticky;
+        top: 8em;
+        width: 18rem;
+        height: 20rem;
+        overflow-y: auto; 
+    }
+}
